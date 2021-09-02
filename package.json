@@ -1,0 +1,33 @@
+{
+  "name": "tailwinds_miniproject",
+  "version": "1.0.0",
+  "description": "project done following Udemy course: https://www.udemy.com/course/tailwindcss-with-examples/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "​npx tailwindcss-cli@latest build -o tailwind.css",
+    "build2": "postcss tailwind.css -o dist/css/styles.css",
+    "build3": "​postcss​ tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pat-On/tailwinds-miniproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pat-On/tailwinds-miniproject/issues"
+  },
+  "homepage": "https://github.com/Pat-On/tailwinds-miniproject#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.0",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss-debug-screens": "^2.0.0"
+  }
+}
