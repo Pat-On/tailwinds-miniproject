@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "​npx tailwindcss-cli@latest build -o tailwind.css",
-    "build2": "postcss tailwind.css -o dist/css/styles.css",
+    "build": "postcss tailwind.css -o dist/css/styles.css",
     "build3": "​postcss​ tailwind.css -o dist/css/styles.css",
+    "build4": "postcss tailwind.css -o dist/css/styles.css",
+    "build5": "​postcss tailwind.css -o dist/css/styles.css",
     "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
   },
   "repository": {
@@ -28,6 +29,6 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "tailwindcss-debug-screens": "^2.0.0"
+    "tailwindcss-debug-screens": "^2.1.0"
   }
 }
