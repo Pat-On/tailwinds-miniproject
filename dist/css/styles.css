@@ -575,6 +575,22 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  /* color: red; */
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .container {
   width: 100%;
 }
@@ -31923,6 +31939,10 @@ video {
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* The way of adding our css*/
+
+/* We can overwrite them by in line styling */
 
 @media (min-width: 640px) {
   .sm\:container {

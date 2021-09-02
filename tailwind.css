@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* The way of adding our css*/
+/* We can overwrite them by in line styling */
+@layer base {
+  h1 {
+    @apply text-5xl;
+    /* color: red; */
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+}
