@@ -1,5 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: {
+    enabled: true, // false
+    content: ['./dist/**/*.html'],
+    },
   darkMode: 'class', // or 'media - is going to allow device to control the dark mode' or 'class'false
   theme: {
     debugScreens: {
