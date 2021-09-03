@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: true, // false
-    content: ['./dist/**/*.html'],
+    content: ['./dist/**/*.html'], //'./dist/**/*.php'
     },
   darkMode: 'class', // or 'media - is going to allow device to control the dark mode' or 'class'false
   theme: {
