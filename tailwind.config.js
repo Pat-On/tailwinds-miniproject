@@ -1,6 +1,6 @@
 module.exports = {
   purge: [],
-  darkMode: 'class', // or 'media' or 'class'false
+  darkMode: 'class', // or 'media - is going to allow device to control the dark mode' or 'class'false
   theme: {
     debugScreens: {
       position: ['top', 'left']
